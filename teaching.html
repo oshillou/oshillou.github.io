@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Louis Ohl - Webpage</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Louis Ohl Online CV">
+      <meta name="author" content="Louis Ohl">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="css/kube.css" />
+      <link rel="stylesheet" href="css/font-awesome.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="shortcut icon" href="img/favicon.png" />
+      <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+      <!-- Navigation -->
+      <div class="main-nav">
+         <div class="container">
+            <header class="group top-nav">
+               <nav id="navbar-1" class="navbar item-nav">
+                  <ul>
+                     <li><a href="index.html">About</a></li>
+                     <li><a href="news.html">News</a></li>
+                     <li ><a href="academia.html">Scientific work</a></li>
+                     <li class="active"><a href="#teaching">Teaching</a></li>
+                     <li><a href="journey.html">Education and journey through life</a></li>
+                     <li><a href="random.html">Miscellaneous</a></li>
+                  </ul>
+               </nav>
+            </header>
+         </div>
+      </div>
+      <div class="about section container" id="about" style="margin-top: 30px">
+         <div class="align">
+            <p>Because learning is a strong part of life</p>
+            <hr/>
+         </div>
+      </div>
+
+      <div class="twofold section second" id="teaching">
+         <div class ="container">
+            <h1>Teaching</h1>
+            <span class="year-mark">2023-2024</span>
+            <hr/>
+            <ul class="twofold-list">
+               <li>Université Côte d'Azur</li>
+               <li>Advanced programming with the Sparks framework</li>
+            </ul>
+            <span class="year-mark">2022-2023</span>
+            <hr/>
+            <ul class="twofold-list">
+               <li>Université Côte d'Azur</li>
+               <li>PhP and dynamic website modelling / Computer vision and Machine Learning (Deep learning perspective)</li>
+            </ul>
+            <span class="year-mark">2021-2022</span>
+            <hr/>
+            <ul class="twofold-list">
+               <li>Université Côte d'Azur</li>
+               <li>Introduction to Java and OOP / PhP and dynamic website modelling</li>
+            </ul>
+            <span class="year-mark">2018-2019</span>
+            <hr/>
+            <ul class="twofold-list">
+               <li>INSA Lyon</li>
+               <li>Math tutoring / Computer Science tutoring</li>
+            </ul>
+            <span class="year-mark">2017-2018</span>
+            <hr/>
+            <ul class="twofold-list">
+               <li>INSA Lyon</li>
+               <li>Math tutoring</li>
+            </ul>
+         </div>
+      </div>
+
+
+      <!-- Javascript -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/typed.min.js"></script>
+      <script src="js/kube.min.js"></script>
+      <script src="js/site.js"></script>
+      <script>
+         function newTyped(){}$(function(){$("#typed").typed({
+         // Change to edit type effect
+         strings: ["PhD Student", "Université Côte d'Azur","Université Laval"],
+         
+         typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+           
+      </script>
+   </body>
+</html>

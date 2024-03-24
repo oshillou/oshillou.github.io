@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Louis Ohl - Webpage</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Louis Ohl Online CV">
+      <meta name="author" content="Louis Ohl">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="css/kube.css" />
+      <link rel="stylesheet" href="css/font-awesome.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="shortcut icon" href="img/favicon.png" />
+      <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+      <!-- Navigation -->
+      <div class="main-nav">
+         <div class="container">
+            <header class="group top-nav">
+               <nav id="navbar-1" class="navbar item-nav">
+                  <ul>
+                     <li class="active"><a href="#about">About</a></li>
+                     <li><a href="news.html">News</a></li>
+                     <li><a href="academia.html">Scientific work</a></li>
+                     <li><a href="teaching.html">Teaching</a></li>
+                     <li><a href="journey.html">Education and journey through life</a></li>
+                     <li><a href="random.html">Miscellaneous</a></li>
+                  </ul>
+               </nav>
+            </header>
+         </div>
+      </div>
+      <!-- Introduction -->
+      <div class="intro">
+         <div class="container">
+            <div class="units-row units-split wrap">
+               <div class="unit-20">
+                  <img src="img/profile_picture.jpeg" alt="Avatar">
+               </div>
+               <div class="unit-80">
+                  <h1>Louis Ohl<br/>PhD Student</h1>
+               </div>
+               <div class="units-row">
+                  <div class="unit-50">
+                     <ul class="social right">
+                        <li><a href="mailto:louiso@kth.se"><i class="fa fa-send"></i></a></li>
+                        <li><a href="http://twitter.com/louis_ohl"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://fr.linkedin.com/in/louis-ohl-526809153"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/oshillou"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://scholar.google.com/citations?user=s2uxUGwAAAAJ&hl=fr"><i class="fa fa-pseudo-scholar"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="about section container" id="about">
+         <div class="align">
+            <img src="img/uca.png" alt="UCA logo" class="header-logo"/>
+            <img src="img/ul.png" alt="UL logo" class="header-logo"/>
+            <img src="img/inria.png" alt="Inria logo" class="header-logo"/>
+         </div>
+         <br/>
+         <div class="align">
+         	<h1>Hello there!</h1>
+            <h3>The long story short</h3>
+            <p>Hello, I am Louis Ohl, a happy PhD student enrolled both at the Université Côte d'Azur (Nice, France) and the Université Laval (Quebec, Canada). I am currently focusing on the detection and qualification of the aortic stenosis, a severe cardiac disease, throughout deep learning methods.</p>
+            <h3>Background</h3>
+            <p>I graduated from two engineering programs focusing on computer science. One from the Institut National des Sciences Appliquées de Lyon (INSA Lyon, France) and another one from the KTH Royal Institute of Technology (Stockholm, Sweden). I try to orient my research as best as possible on the usage of artificial intelligence in health, for example through my Master's thesis and my PhD. I appreciate thinking about how the perception of the space we have, and thus the way we draw decision boundaries, can lead to a decision or another. At the moment, my main skills involve unsupervised learning, specifically clustering, and deep learning methods.</p>
+            <h3>Nowadays</h3>
+            <p>	PhD Student at Université Côte d'Azur (Nice, France) and Université Laval (Quebec, Canada): Statistical learning in Cardiology. Funds: France-Canada Research Funds for mobility and a dedicated fund from the French Ambassy in Canada. If you need a quick insight on my work, you can check my vulgarisation attempt in the contest <a href="https://www.youtube.com/live/tbqJM9UqwNU?si=ScCza0EwHrcAyYmB&t=4323"><cite>Ma thèse en 180 secondes</cite><a> (French only), and investigate the <a href="https://gemini-clustering.github.io/main/auto_examples/index.html"><cite>GemClus</cite></a> that summarises most of my PhD algorithms.</p>
+            <h3>Affiliations</h3>
+            <p>Université Côte d'Azur, Inria, CNRS, I3S, Maasai team // CHU de Québec Research Center, Laval University</p>
+         </div>
+      </div>
+
+      <footer>
+         <div class="container">
+            <div class="units-row">
+               <div class="unit-50">
+                  <p>Want to get in touch ?</p>
+                  <ul class="social right">
+                     <li><a href="mailto:louiso@kth.se"><i class="fa fa-send"></i></a></li>
+                     <li><a href="http://twitter.com/louis_ohl"><i class="fa fa-twitter"></i></a></li>
+                     <li><a href="https://fr.linkedin.com/in/louis-ohl-526809153"><i class="fa fa-linkedin"></i></a></li>
+                     <li><a href="https://github.com/oshillou"><i class="fa fa-github"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Javascript -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/typed.min.js"></script>
+      <script src="js/kube.min.js"></script>
+      <script src="js/site.js"></script>
+      <script>
+         function newTyped(){}$(function(){$("#typed").typed({
+         // Change to edit type effect
+         strings: ["PhD Student", "Université Côte d'Azur","Université Laval"],
+         
+         typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+           
+      </script>
+   </body>
+</html>
