@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Will present a paper at the UAI 2025 conference at Rio de Janeiro on a novel score for clustering evaluation, called DISCOTEC.
+Will present a paper at the [UAI 2025](https://www.auai.org/uai2025/) conference at Rio de Janeiro on a novel score for clustering evaluation, called [DISCOTEC](https://proceedings.mlr.press/v286/ohl25a.html).

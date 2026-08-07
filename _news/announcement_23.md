@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have been selected as NeurIPS top reviewer. How cool!
+I have been selected as a [NeurIPS top](https://neurips.cc/Conferences/2025/ProgramCommittee#top-reviewer) reviewer. How cool!

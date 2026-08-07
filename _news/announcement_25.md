@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’ll be at the ELLIS UnConference at Copenhagen presenting at the Poster Session my paper "Discrimintative Ordering through Ensemble Consensus" (DISCOTEC).
+I’ll be at the [ELLIS UnConference 2025](https://eurips.cc/ellis/) at Copenhagen presenting at the Poster Session my paper "Discrimintative Ordering through Ensemble Consensus" (DISCOTEC).

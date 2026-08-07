@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Have been selected as a top reviewer for UAI, that's cool and many thanks!
+Have been selected as a top reviewer for [UAI 2026](https://www.auai.org/uai2026/top_reviewers), that's cool and many thanks!
