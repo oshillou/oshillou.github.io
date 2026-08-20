@@ -56,11 +56,11 @@ Interested for a thesis? Contact me!
 
 **Ongoing**
 
-
-- **Matilda Helander and Ksenia Natascha Kart**, degree project in biomedical engineereing, _Machine‑Learning Estimation of Alcohol Level from Driver Signals_
+/
 
 **Defended**
 
+- **Matilda Helander and Ksenia Karst**, degree project in biomedical engineereing, _Machine‑Learning Estimation of Alcohol Levels from Driver Eye-Tracking Signals_
 - **Yaling Gan**, master thesis in statistics, _A comparison of representation evaluation scores_
 - **Sangeeth Sankunny Menon**, master thesis in statistics, _Development of circulating protein-metabolite signaling network_
 - **Jiajun Chen**, degree project in computer science, _Design, implement and evaluate data product in Snowflake_
