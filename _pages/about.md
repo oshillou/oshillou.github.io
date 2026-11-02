@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://www.chalmers.se/en/">Chalmers University of Technology</a>, <a href="Computer Science and Engineering">Department of Computer Science and Engineering</a>, <a href="https://www.healthyai.se/">Healthy AI Lab</a>.
+subtitle: <a href="https://www.chalmers.se/en/">Chalmers University of Technology</a>, <a href="https://www.chalmers.se/en/departments/cse/">Department of Computer Science and Engineering</a>, <a href="https://www.healthyai.se/">Healthy AI Lab</a>.
 
 profile:
   align: right
@@ -29,7 +29,7 @@ announcements:
 
 # Hello there!
 
-Hello, I am a happy postdoc at [Chalmers](https://www.chalmers.se/en/) (Gothenburg, Sweden). My main area of interest encompasses unsupervised learning, specifically discriminative models, and their application with or without constraints for instance in health or material science. I try to stir as much as possible  my applications towards tabular data.
+Hello, I am a happy postdoc at [Chalmers](https://www.chalmers.se/en/) (Gothenburg, Sweden), under the supervision of [Fredrik Johansson](https://www.fredjo.com/). My main area of interest encompasses unsupervised learning, specifically discriminative models, and their application with or without constraints for instance in health or material science. I try to stir as much as possible  my applications towards tabular data.
 
 # Ongoing work
 
