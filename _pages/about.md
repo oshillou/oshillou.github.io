@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office TBD</p>
+    <p>Office 5461</p>
     <p>Quarl Ankas Väg 2</p>
     <p>Gothenburg, Sweden</p>
 
